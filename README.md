@@ -66,5 +66,18 @@ Em meu caso:
 
 E então, em seu local onde desejou salvar seu repositório, no meu caso, em minha área de trabalho irá aparecer a pasta TesteGit 🗂, meu repositório, com o arquivo README.md
 
+Usaremos mais dois comandos, para que nosso usuário git seja identificado...
+
+```
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+```
+
+![](https://cdn.discordapp.com/attachments/576875163686010911/661653663411994645/unknown.png)
 
 ## Comandos do Git
+
+Com nosso repositório já em nossa máquina, irei criar um documento de texto para exemplificar...
+
+![](https://cdn.discordapp.com/attachments/576875163686010911/661652644321820707/unknown.png)
+
