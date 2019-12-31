@@ -26,7 +26,7 @@ Já com o Git em seu computador e sua conta no GitHub, basta agora criarmos um r
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661637887829344276/unknown.png)
 
-Já na aba de repositórios, iremos criar um novo
+Já na aba de repositórios, iremos criar um novo repositório para nosso tutorial
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661639336218984508/unknown.png)
 
@@ -43,3 +43,17 @@ Com a URL em mãos, iremos clonar o repositório em nosso computador, para isso,
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661643508494630921/unknown.png)
 
 O Git Bash foi intalado junto com o Git, é possível fazer os mesmos comandos que iremos rodar via terminal, sendo assim, questão de gosto 🍕x🍔.
+
+Com o Git Bash aberto, iremos rodar o seguinte comando
+
+```
+git clone [sua url]
+```
+Em meu caso
+
+![](https://cdn.discordapp.com/attachments/576875163686010911/661646377071149081/unknown.png)
+
+E então, em seu local onde desejou salvar seu repositório, no meu caso, em minha área de trabalho irá aparecer a parta TesteGit, meu repositório, com o arquivo README.md
+
+
+## Comandos do Git
