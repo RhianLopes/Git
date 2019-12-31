@@ -24,36 +24,47 @@ Já com o Git instalado, temos que hospedar um repositório git, "Isso é Pago? 
 
 Já com o Git em seu computador e sua conta no GitHub, basta agora criarmos um repositório, onde você pode ter vários e salvar seus trabalhos ou projetos nele. Para isso acesse seu perfil no GitHub e acesse a aba de Repositórios.
 
+
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661637887829344276/unknown.png)
 
-Já na aba de repositórios, iremos criar um novo repositório para nosso tutorial
+
+Já na aba de repositórios, iremos criar um novo repositório para nosso tutorial:
+
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661639336218984508/unknown.png)
 
-Criando um repositório, devemos dar um nome para ele, após informar se ele será público ou privado e por fim, podemos marcar a opção de vir com um README.md, que no caso é um documento de texto para exibição e explicação para alguem que não conhece o projeto. Feito isso, podemos clicar no botão verde no fim da tela e criar o nosso repositório.
+Criando um repositório, devemos dar um nome para ele, após informar se ele será público ou privado e por fim, podemos marcar a opção de vir com um README.md, que no caso é um documento de texto para exibição e explicação para alguem que não conhece o projeto. Feito isso, podemos clicar no botão verde no fim da tela e criar o nosso repositório:
+
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661640471973462046/unknown.png)
 
-Com repositório em mãos, iremos clonar esse repositório em nosso computador, é como se tivessemos uma pasta em nosso computador que envia e salva as informações na nuvem, ou melhor em nosso GitHub. Para fazer o clone, precisamos copiar essa URL que aparece ao clicarmos no botão verde.
+
+Com repositório em mãos, iremos clonar esse repositório em nosso computador, é como se tivessemos uma pasta em nosso computador que envia e salva as informações na nuvem, ou melhor em nosso GitHub. Para fazer o clone, precisamos copiar essa URL que aparece ao clicarmos no botão verde:
+
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661642037476720661/unknown.png)
 
-Com a URL em mãos, iremos clonar o repositório em nosso computador, para isso, encontre o melhor local para salvar sua pasta, no meu caso a minha área de trabalho, feito isso, clicar com o botão direito do mouse, e clicar na opção "Git Bash Here", onde irá abrir uma tela escura ao lado de onde clicamos.
+
+Com a URL em mãos, iremos clonar o repositório em nosso computador, para isso, encontre o melhor local para salvar sua pasta, no meu caso a minha área de trabalho, feito isso, clicar com o botão direito do mouse, e clicar na opção "Git Bash Here", onde irá abrir uma tela escura ao lado de onde clicamos:
+
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661643508494630921/unknown.png)
 
+
 O Git Bash foi intalado junto com o Git, é possível fazer os mesmos comandos que iremos rodar via terminal, sendo assim, questão de gosto 🍕x🍔.
 
-Com o Git Bash aberto, iremos rodar o seguinte comando
+Com o Git Bash aberto, iremos rodar o seguinte comando...
 
 ```
 git clone [sua url]
 ```
-Em meu caso
+Em meu caso:
+
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661646377071149081/unknown.png)
 
-E então, em seu local onde desejou salvar seu repositório, no meu caso, em minha área de trabalho irá aparecer a parta TesteGit, meu repositório, com o arquivo README.md
+
+E então, em seu local onde desejou salvar seu repositório, no meu caso, em minha área de trabalho irá aparecer a pasta TesteGit 🗂, meu repositório, com o arquivo README.md
 
 
 ## Comandos do Git
