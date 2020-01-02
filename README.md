@@ -149,7 +149,7 @@ Onde teremos dois commits, sendo o primeiro quando damos o nosso ```git clone [s
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/662011716015620116/unknown.png)
 
-### 🙂🙃🙂 E se eu estiver em Dupla ou mais pessoas?
+## 🙂🙃🙂 E se eu estiver em Dupla ou mais pessoas?
 
 É muito comum trabalharmos em um projeto em mais pessoas, "Então eu vou ter que rodar ```git clone``` toda vez que meu colega adicionar um commit novo dele?". Nada disso, para isso temos o comando...
 
@@ -186,7 +186,7 @@ o
 
 Como foi dito antes... A branch ```develop``` é a branch principal para os desenvolvedores, então caso você queira criar uma uma nova ```feature``` para o usuário fazer seu login, você deve como desenvolvedor criar uma branch a partir da ```develop``` e criar a nova funcionalidade e por fim, atualizar sua branch com a ```develop``` caso algum colega seu tenha adicionado código que possa gerar conflito, caso isso aconteça, basta resolver o conflito e por fim adicionar sua branch na ```develop```
 
-### ♻ Como criar uma branch?
+## ♻ Como criar uma branch?
 
 Para criar uma branch é simples, como exemplo, vamos criar a branch ```develop``` a partir, em nosso caso já estamos na branch master, pois ela é criada automaticamente com o commit inicial... 
 
