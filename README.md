@@ -75,7 +75,7 @@ git config --global user.email "seuemail@email.com"
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661653663411994645/unknown.png)
 
-## 💻 Comandos do Git
+## 💻 Como fazer o seu primeiro commit?
 
 Com nosso repositório já em nossa máquina, irei criar um documento de texto para exemplificar um projeto ou código...
 
