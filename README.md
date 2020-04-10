@@ -56,7 +56,7 @@ O Git Bash foi instalado junto com o Git, é possível fazer os mesmos comandos 
 Com o Git Bash aberto, iremos rodar o seguinte comando...
 
 ```
-git clone [sua url]
+$ git clone [sua url]
 ```
 Em meu caso:
 
@@ -69,8 +69,8 @@ E então, em seu local onde desejou salvar seu repositório, no meu caso, em min
 Usaremos mais dois comandos, para que nosso usuário git seja identificado...
 
 ```
-git config --global user.name "Seu nome"
-git config --global user.email "seuemail@email.com"
+$ git config --global user.name "Seu nome"
+$ git config --global user.email "seuemail@email.com"
 ```
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/661653663411994645/unknown.png)
@@ -102,13 +102,13 @@ Podemos ver que foi adicionado em nosso repositório um documento de texto e que
 Para adicionarmos o nosso documento de texto iremos rodar o seguinte comando...
 
 ```
-git add .
+$ git add .
 ```
 
 Nesse comando, adicionamos todos os documentos que foram modificados, adicionados ou deletado, caso queira adicionar algum arquivo específico ou adicionar arquivo por arquivo, basta rodar o seguinte comando...
 
 ```
-git add [local onde está o arquivo... ex: docs/teste/classA.txt]
+$ git add [local onde está o arquivo... ex: docs/teste/classA.txt]
 ```
 
 Feito o comando, se rodarmos novamente o comando ``` git status ```, veremos que o nome do arquivo está verde, representando que ele foi adicionado... 
@@ -118,7 +118,7 @@ Feito o comando, se rodarmos novamente o comando ``` git status ```, veremos que
 Feito isso, sabemos que nosso arquivo adicionado de teste, foi adicionado em nosso commit, agora vamos enfim rodar o comando para fazer o commit em si...
 
 ```
-git commit -m "sua mensagem"
+$ git commit -m "sua mensagem"
 ```
 
 Em sua mensagem, existem diversos padrões de commit, dependendo de cada projeto, empresa ou equipe, o importante é sempre seguir um padrão. Em meu caso, sigo o [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)...
@@ -130,7 +130,7 @@ Feito o commit, rodei o comando ```git status```, onde podemos ver que não apar
 Para enviar nossos commits que estão apenas localmente em seu computador precisamos rodar o comando...
 
 ```
-git push
+$ git push
 ```
 
 Depois disso, o seu hospedador irá fazer algum tipo de autenticação com seu email e senha por exemplo, em meu caso eu informo meu email e após isso, aparece um campo na tela para que eu possa informar minha senha do GitHub... Mas isso não significa que será exatamente assim, pode mudar dependendo das versões da máquina por exemplo...
@@ -154,7 +154,7 @@ Onde teremos dois commits, sendo o primeiro quando damos o nosso ```git clone [s
 É muito comum trabalharmos em um projeto em mais pessoas, "Então eu vou ter que rodar ```git clone``` toda vez que meu colega adicionar um commit novo dele?". Nada disso, para isso temos o comando...
 
 ```
-git pull
+$ git pull
 ```
 
 Com esse comando, atualizamos a nossa branch "Tá Rhian, denovo essa palavra? O que é isso?", calma lá estamos chegando nela. Mas voltando, podemos atualizar com esse comando, em nosso caso, se rodarmos esse comando, não será adicionado nada...
@@ -191,7 +191,7 @@ Como foi dito antes... A branch ```develop``` é a branch principal para os dese
 Para criar uma branch é simples, como exemplo, vamos criar a branch ```develop``` a partir, em nosso caso já estamos na branch master, pois ela é criada automaticamente com o commit inicial... 
 
 ```
-git checkout -b develop
+$ git checkout -b develop
 ```
 
 O comando ```git checkout [sua branch]``` nos possibilita acessarmos outras branchs e navegar entre as branchs, já o comando ```git checkout -b [sua branch]``` cria uma nova branch...
@@ -211,7 +211,7 @@ Voltei para a branch ```develop``` e criei uma nova branch chamada ```feature/ne
 Mas a branch ```develop``` ainda não estava no GitHub, então rodei o comando...
 
 ```
-git push --set-upstream origin develop
+$ git push --set-upstream origin develop
 ```
 
 Para adicionar a branch ```develop``` no GitHub
@@ -223,7 +223,7 @@ Para adicionar a branch ```develop``` no GitHub
 Fiz a modificação em nosso documento de texto e após fiz o commit, mas na hora do commit apareceu uma mensagem, explicando essa nossa nova branch ainda não está no GitHub, para adicionarmos essa nova branch, basta rodar o comando informado na mensagem...
 
 ```
-git push --set-upstream origin feature/new-line
+$ git push --set-upstream origin feature/new-line
 ```
 
 ![](https://cdn.discordapp.com/attachments/576875163686010911/662026340358160421/unknown.png)
@@ -237,7 +237,7 @@ Após rodarmos o comando, enfim, adicionamos nosso commit na nova branch, podemo
 Podemos ver nossas ambas branchs, ao lado da branch ```feature/new-line``` podemos criar um novo Pull Request, ele serve para passar tudo o que existe de uma branch para outra. Mas antes de fazermos isso, iremos atualizar nossa branch ```feature/new-line``` com base na branch develop, imaginando o caso de um outro colega tenha alterado a branch develop, para atualizar iremos usar o comando...
 
 ```
-git pull origin develop
+$ git pull origin develop
 ```
 
 O comando ```git pull``` já haviamos conhecido, mas o ```git pull origin develop``` eu referencio que ele deve atualizar com a ```origin develop``` no caso ele irá atualizar com base na branch da develop que está no GitHub... Feito isso, não temos nenhum conflito, entrão iremos criar um Pull Request...
