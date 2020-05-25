@@ -272,5 +272,3 @@ Após revisado e aprovado o Pull Request, podemos visualizar que nossa branch de
 
 Feito isso... finalizo aqui esse README para iniciantes na ferramenta, existem outros diversos comandos que podem ser adicionados aqui, então esse README ainda pode ser modificações, estou aberto á críticas, dúvidas e melhorias, basta entrar em contato 🙃.
 
-O repositório feito nas prints está público e disponível para consulta, basta acessar [TesteGit](https://github.com/RhianLopes/TesteGit).
-
